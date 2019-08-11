@@ -9,7 +9,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 body {
-  background-color: #B0E4DE
+  background-color: #B0E4DE;
 }
 
 h1 {
@@ -31,4 +31,43 @@ p {
   color: #FFFFFF;
   padding: 1%;
   text-align: center;
+}
+
+li {
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  margin: 1%;
+  border: 1px solid white;
+}
+
+ul li p {
+  padding: 15%;
+  margin: 0;
+  transition: background-color 1000ms;
+}
+
+#pink {
+	background-color: #E4B0D0;
+}
+
+#green {
+	background-color: #6EF181;
+}
+
+#yellow {
+	background-color: #F2E76C;
+}
+
+#orange {
+	background-color: #EAAB5B;
+}
+
+.new-color {
+  background-color: #FFFFFF;
+  transition: background-color 1000ms;
+}
+
+.hide {
+	display: none;
 }
