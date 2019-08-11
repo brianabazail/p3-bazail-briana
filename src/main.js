@@ -83,10 +83,10 @@ function newLayerTwo() {
 //Fortunes
 let fortuneTeller = document.createElement('p');
 let fortuneGrab = document.getElementById('messages');
-fortuneGrab.appendChild(yourFortuneTeller);
+fortuneGrab.appendChild(fortuneTeller);
 
 let newText = document.createTextNode('');
-yourFortuneTeller.appendChild(newText);
+fortuneTeller.appendChild(newText);
 
 let messages = [
   'If you continually give, you will continually have.',
