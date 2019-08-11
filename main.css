@@ -68,6 +68,16 @@ ul li p {
   transition: background-color 1000ms;
 }
 
+#second-fortune {
+	display: none;
+}
+
 .hide {
 	display: none;
+}
+
+.fortune p {
+	font-family: 'Quicksand', sans-serif;
+  font-size: 3em;
+  color: #FFFFFF;
 }
