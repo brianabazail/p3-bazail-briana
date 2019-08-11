@@ -99,8 +99,6 @@ let messages = [
   'Courtesy is contagious',
   'Determination is what you need now',
   'Fear and desire – two sides of the same coin',
-  'Happy life is just in front of you',
-  'Failure is the chance to do better next time'
 ];
 
 let fortuneReveal = function() {
