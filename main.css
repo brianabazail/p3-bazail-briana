@@ -12,6 +12,11 @@ body {
   background-color: #B0E4DE;
 }
 
+main {
+	padding: 3%;
+	margin-left: 11%;
+}
+
 h1 {
   font-family: 'Lexend Deca', sans-serif;
   color: #FFFFFF;
@@ -63,13 +68,13 @@ ul li p {
 	background-color: #EAAB5B;
 }
 
+#second-fortune {
+	display: none;
+}
+
 .new-color {
   background-color: #FFFFFF;
   transition: background-color 1000ms;
-}
-
-#second-fortune {
-	display: none;
 }
 
 .hide {
